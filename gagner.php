@@ -1,4 +1,6 @@
 <?php
+////// PARTIE 1111111111
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
@@ -24,6 +26,11 @@ if (!isset($_SESSION['secret_number'])) {
 $status_message = "";
 $message_class = "text-on-surface-variant dark:text-gray-400";
 
+////// PARTIE 1111111111
+
+
+////// PARTIE 2222222222
+
 // إعادة تشغيل اللعبة إذا ضغط على Recommencer
 if (isset($_POST['reset_game'])) {
     $_SESSION['secret_number'] = rand(1, 10);
@@ -41,6 +48,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['prediction']) && !$_S
         $_SESSION['attempts']++;
         $prediction = (int)$prediction;
         $secret = $_SESSION['secret_number'];
+
+
+////// PARTIE 33333333333
+
 
         if ($prediction < $secret) {
             $status_message = "Plus grand ! 📈";
@@ -195,12 +206,7 @@ require_once '../includes/header.php';
     </div>
 </main>
 
-<footer class="bg-gray-100 dark:bg-[#1a1a1a] border-t border-gray-200 dark:border-gray-800 mt-auto transition-colors">
-    <div class="flex flex-col items-center justify-center w-full py-6 text-center">
-        <div class="text-sm font-bold text-blue-600 dark:text-[#b1c5ff] mb-2">Mon Magasin</div>
-        <p class="text-gray-400 dark:text-gray-500 text-xs">© 2026 Mon site - cours de php 2026</p>
-    </div>
-</footer>
+<?php require_once '../includes/footer.php'; ?>
 
 </body>
 </html>
