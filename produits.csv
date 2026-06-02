@@ -1,0 +1,9 @@
+id,titre,categorie,prix,stock,icon
+1,MacBook Pro M3,Informatique,1299.99,3,laptop_mac
+2,iPhone 15 Pro,Téléphonie,1159.00,12,smartphone
+3,Sony WH-1000XM5,Audio,349.00,5,headphones
+4,Galaxy Watch 6,Wearables,299.99,2,watch
+5,iPad Air M2,Informatique,699.00,8,tablet
+6,Sonos Era 300,Audio,499.00,3,speaker
+7,MX Master 3S,Accessoires,129.99,25,mouse
+8,Studio Display,Informatique,1749.00,4,monitor

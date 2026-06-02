@@ -1,0 +1,20 @@
+# Processeurs
+cpu|i5|Intel Core i5-13600K|289.99
+cpu|i7|Intel Core i7-13700K|389.99
+cpu|r5|AMD Ryzen 5 7600X|249.99
+cpu|r7|AMD Ryzen 7 7700X|349.99
+
+# RAM & Stockage
+ram|ram16|RAM DDR5 16 Go|69.99
+ram|ram32|RAM DDR5 32 Go|145.00
+stockage|ssd1|SSD NVMe 1 To|99.99
+stockage|ssd2|SSD NVMe 2 To|180.00
+
+# Périphériques
+periph|clavier|Clavier mécanique RGB|79.99
+periph|souris|Souris gaming 16000 DPI|49.99
+periph|casque|Casque Hi-Fi Studio|199.00
+
+# Garantie
+garantie|standard|Garantie 1 an (incluse)|0.00
+garantie|premium|Extension Protection 5 ans|120.00
